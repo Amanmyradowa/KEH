@@ -1,0 +1,24 @@
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-center
+{
+  text-align: center;
+}
+
+.text-shadow
+{
+  text-shadow: 0px 4px 14px var(--color-black-015);
+}
+
+.line-height-19
+{
+  line-height: 19px;
+}
+
+.text-absolute-center
+{
+  position: absolute;
+  top: 50%;
+}

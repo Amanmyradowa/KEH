@@ -1,0 +1,10 @@
+.swiper
+{
+  width: 100%;
+}
+
+.swiper__text
+{
+  width: 100%;
+  opacity: 0.5;
+}

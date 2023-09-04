@@ -1,0 +1,50 @@
+.header
+{
+
+}
+
+.header__navigation
+{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.header__left
+{
+  width: 50%;
+}
+
+.header__right
+{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu__list
+{
+  display: flex;
+}
+
+.menu__item
+{
+  list-style: none;
+}
+
+.menu__link
+{
+  text-decoration: none;
+}
+
+.language__content
+{
+  display: flex;
+}
+
+.logotype
+{
+
+}

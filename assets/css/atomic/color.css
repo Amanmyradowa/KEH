@@ -1,0 +1,62 @@
+/* text color */
+.text-color-black
+{
+  color: var(--color-black);
+}
+
+.text-color-blue
+{
+  color: var(--color-blue);
+}
+
+.text-color-light-blue
+{
+  color: var(--color-light-blue);
+}
+
+.text-color-milk-white
+{
+  color: var(--color-milk-white);
+}
+
+.text-color-white
+{
+  color: var(--color-white);
+}
+
+.text-color-dark-gray
+{
+  color: var(--color-dark-gray);
+}
+
+.text-color-yellow
+{
+  color: var(--color-yellow);
+}
+
+
+/* background-color */
+.color-background-white
+{
+  background-color: var(--color-white);
+}
+
+.color-background-dark-blue
+{
+  background-color: var(--color-dark-blue);
+}
+
+.color-background-light-blue
+{
+  background: var(--color-light-blue);
+}
+
+.color-background-blue
+{
+  background: var(--color-blue);
+}
+
+.color-background-black-020
+{
+  background: var(--color-black-020);
+}
