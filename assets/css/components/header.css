@@ -8,19 +8,18 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-
 }
 
-.header__left
+.header__left-column
 {
   width: 50%;
 }
 
-.header__right
+.header__right-column
 {
   width: 50%;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
 }
 
@@ -29,12 +28,12 @@
   display: flex;
 }
 
-.menu__item
+.heading-links__list-item
 {
   list-style: none;
 }
 
-.menu__link
+.heading-links__list-link
 {
   text-decoration: none;
 }

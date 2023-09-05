@@ -24,6 +24,11 @@
   color: var(--color-white);
 }
 
+.text-color-white-07
+{
+  color: var(--color-white-07);
+}
+
 .text-color-dark-gray
 {
   color: var(--color-dark-gray);
@@ -49,6 +54,11 @@
 .color-background-light-blue
 {
   background: var(--color-light-blue);
+}
+
+.color-background-yellow
+{
+  background-color: var(--color-yellow4);
 }
 
 .color-background-blue

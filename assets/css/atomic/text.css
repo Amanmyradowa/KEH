@@ -17,8 +17,18 @@
   line-height: 19px;
 }
 
+.line-height-13
+{
+  line-height: 13px;
+}
+
 .text-absolute-center
 {
   position: absolute;
   top: 50%;
+}
+
+.font-weight-700
+{
+  font-weight: 700;
 }

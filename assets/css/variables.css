@@ -7,8 +7,10 @@
   --color-light-blue: #00559D;
   --color-dark-blue: #101920;
   --color-yellow: #E0B345;
+  --color-yellow4: #E0B344;
   --color-gray: #D8E2EE;
   --color-dark-gray: #222A22;
   --color-black-020: rgba(255, 255, 255, 0.20);
   --color-black-015: rgba(0, 0, 0, 0.15);
+  --color-white-07: rgba(255, 255, 255, 0.7);
 }
