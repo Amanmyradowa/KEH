@@ -9,6 +9,13 @@
   height: 100%;
 }
 
+.image-background
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 .image__element--fit-contain
 {
   object-fit: contain;

@@ -8,12 +8,8 @@
   bottom: -10px;
 }
 
-.links-buttons-main
-{
 
-}
-
-.links-buttons-main__top
+.links-buttons-main__items
 {
   display: flex;
   justify-content: space-between;

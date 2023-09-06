@@ -12,6 +12,11 @@
   text-shadow: 0px 4px 14px var(--color-black-015);
 }
 
+.text-align-center
+{
+  text-align: center;
+}
+
 .line-height-19
 {
   line-height: 19px;
@@ -26,9 +31,4 @@
 {
   position: absolute;
   top: 50%;
-}
-
-.font-weight-700
-{
-  font-weight: 700;
 }

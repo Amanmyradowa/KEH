@@ -2,13 +2,6 @@ input{
   outline: none;
 }
 
-button
-{
-  border: none;
-  outline: none;
-  cursor: pointer;
-}
-
 textarea
 {
   resize: vertical;
