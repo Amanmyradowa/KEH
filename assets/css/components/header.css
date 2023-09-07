@@ -28,11 +28,6 @@
   display: flex;
 }
 
-.heading-links__list-item
-{
-  list-style: none;
-}
-
 .heading-links__list-link
 {
   text-decoration: none;

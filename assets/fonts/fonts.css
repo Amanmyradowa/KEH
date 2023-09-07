@@ -4,6 +4,11 @@
 	src: url('./ARIALN.TTF');
 }
 
+.font-size-16
+{
+	font-size: 16px;
+}
+
 .font-size-18
 {
 	font-size: 18px;
@@ -14,9 +19,9 @@
 	font-size: 20px;
 }
 
-.font-size-40
+.font-size-30
 {
-	font-size: 40px;
+	font-size: 30px;
 }
 
 .font-size-35
@@ -24,14 +29,9 @@
 	font-size: 35px;
 }
 
-.font-size-30
+.font-size-40
 {
-	font-size: 30px;
-}
-
-.font-size-16
-{
-	font-size: 16px;
+	font-size: 40px;
 }
 
 .font-weight-700

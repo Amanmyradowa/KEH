@@ -1,0 +1,16 @@
+.about-us__part
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-us__part__right
+{
+  width: 60%;
+}
+
+.about-us__image
+{
+  
+}

@@ -6,3 +6,8 @@ textarea
 {
   resize: vertical;
 }
+
+.form-buttons__button
+{
+  width: 100%;
+}
