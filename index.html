@@ -116,17 +116,17 @@
         <ul class="splide__list">
           <li class="splide__slide">
 
-              <img style="height: 100px;" class="back_image" src="./assets/images/swiper.png" alt="">
+              <img class="back_image" src="./assets/images/swiper.png" alt="">
 
           </li>
           <li class="splide__slide">
 
-              <img style="height: 100px;" class="back_image" src="./assets/images/swiper.png" alt="">
+              <img class="back_image" src="./assets/images/swiper.png" alt="">
 
           </li>
           <li class="splide__slide">
 
-              <img style="height: 100px;" class="back_image" src="./assets/images/swiper.png" alt="">
+              <img class="back_image" src="./assets/images/swiper.png" alt="">
 
           </li>
         </ul>
@@ -389,6 +389,16 @@
 
 
     <script src="./src/splide.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        new Splide('.splide',{
+            type:"loop",
+            perPage:1,
+            autoplay:true,
+            cover:true
+          }).mount();
+      });
+</script> 
 
   </body>
 </html>

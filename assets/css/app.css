@@ -26,3 +26,11 @@ body
 	max-width: 1150px;
 	margin: 0 auto;
 }
+
+.splide{
+	height: 200px;
+}
+
+.splide__track, .splide__list{
+	height: 100%;
+}
