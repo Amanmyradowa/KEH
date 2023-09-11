@@ -9,13 +9,4 @@
 @import"../../components/links_buttons.css";
 @import"../../components/partners.css";
 @import"../../components/list.css";
-
-/* .back_image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  z-index: -2;
-} */
+@import"../../components/partners__container.css";

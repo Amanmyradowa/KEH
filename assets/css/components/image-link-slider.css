@@ -1,4 +1,4 @@
 .image-links-slider__image
 {
-  width: 20%;
+  width: calc(100% / 4);
 }

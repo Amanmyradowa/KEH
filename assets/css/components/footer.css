@@ -11,7 +11,7 @@
 
 .footer__right-column
 {
-  width: 50%;
+  width: 40%;
   display: flex;
   flex-direction: column;
 }
