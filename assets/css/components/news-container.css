@@ -1,0 +1,19 @@
+.news-container
+{
+  display: flex;
+}
+
+.news
+{
+  width: calc(100% / 2);
+}
+
+.news__img
+{
+  width: 80%;
+}
+
+.news__items
+{
+  width: calc(100% / 2);
+}

@@ -28,9 +28,15 @@ body
 }
 
 .splide{
-	height: 200px;
+	width: 100%;
+	height: calc(100vh - 126px);
 }
 
 .splide__track, .splide__list{
 	height: 100%;
+}
+
+.splide__arrows
+{
+	display: none;
 }

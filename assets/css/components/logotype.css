@@ -3,12 +3,14 @@
   width: 50%;
 }
 
-.logotype__image
+.logotype__image-header
 {
-  width: 25%;
+  width: 229px;
+  height: 83px;
 }
 
-.logotype__image-element
+.logotype__image-footer
 {
-
+  width: 307.215px;
+  height: 110.964px;
 }

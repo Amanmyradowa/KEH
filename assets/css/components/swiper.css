@@ -1,10 +1,9 @@
-.swiper
+.swiper__heading-text
 {
   width: 100%;
-}
-
-.swiper__text
-{
-  width: 100%;
-  opacity: 0.5;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
+  z-index: 1;
 }

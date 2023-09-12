@@ -1,5 +1,7 @@
 .svg__icon
 {
+  width: 70.754px;
+  height: 70.754px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,6 +19,6 @@
 
 .main__item-link
 {
-  width: 27%;
+  width: calc(100% / 3);
   position: relative;
 }

@@ -41,6 +41,13 @@
 
 
 /* background-color */
+
+
+.text-color-milk-white
+{
+  background: var(--color-milk-white);
+}
+
 .color-background-white
 {
   background-color: var(--color-white);
@@ -53,7 +60,7 @@
 
 .color-background-light-blue
 {
-  background: var(--color-light-blue);
+  background-color: var(--color-light-blue);
 }
 
 .color-background-yellow
@@ -63,17 +70,17 @@
 
 .color-background-blue
 {
-  background: var(--color-blue);
+  background-color: var(--color-blue);
 }
 
 .color-background-black-020
 {
-  background: var(--color-black-020);
+  background-color: var(--color-black-020);
 }
 
 .color-background-black-05
 {
-  background: rgba(0, 2, 3, 0.452);
+  background-color: rgba(0, 2, 3, 0.452);
   /* opacity: 0.5;
   background: #101920; */
 }
