@@ -226,73 +226,65 @@
 
       </div>
 
-      <div class="partners__image-links-slider">
+      <!-- <div class="partners__image-links-slider">
 
-        <!-- <div class="splide">
+        <div class="splide2">
 
           <div class="splide__track">
   
             <ul class="splide__list">
   
               <li class="splide__slide">
-                <div class="image-links-slider__image padding-25-21-21-48 border-radius-71px-000 color-background-white margin-right-57">
+
+                <a href="" class="image-links-slider__image padding-25-21-21-48 border-radius-71px-000 color-background-white margin-right-57">
+
                   <img class="image__element" src="./assets/images/Vinci logo.png" alt="" class="image__element" >
-                </div>
+      
+                </a>
+
               </li>
   
               <li class="splide__slide">
-                <div class="image-links-slider__image padding-25-21-21-48 border-radius-71px-000 color-background-white margin-right-57">
-                  <img class="image__element" src="./assets/images/Schlumberger-Logo.png" alt="">
-                </div>
+
+                <a href="" class="image-links-slider__image padding-25-21-21-48 border-radius-71px-000 color-background-white margin-right-57">
+
+                  <img class="image__element" src="./assets/images/Schlumberger-Logo.png" alt="" class="image__element" >
+      
+                </a>
+
               </li>
   
               <li class="splide__slide">
-                <div class="image-links-slider__image padding-25-21-21-48 border-radius-71px-000 color-background-white margin-right-57">
-                  <img class="image__element" src="./assets/images/Petrofac-Logo.png" alt="">
-                </div>
+
+                <a href="" class="image-links-slider__image padding-25-21-21-48 border-radius-71px-000 color-background-white margin-right-57">
+
+                  <img class="image__element" src="./assets/images/Petrofac-Logo.png" alt="" class="image__element" >
+      
+                </a>
+
               </li>
   
               <li class="splide__slide">
-                <div class="image-links-slider__image padding-25-21-21-48 border-radius-71px-000 color-background-white margin-right-57">
-                  <img class="image__element" src="./assets/images/Petrofac-Logo.png" alt="">
-                </div>
+
+                <a href="" class="image-links-slider__image padding-25-21-21-48 border-radius-71px-000 color-background-white margin-right-57">
+
+                  <img class="image__element" src="./assets/images/Nokia.png" alt="" class="image__element" >
+      
+                </a>
+
               </li>
   
             </ul>
   
           </div>
   
-        </div> -->
-
-        <div class="swiper-container margin-bottom-60">
-
-          <a href="" class="image-links-slider__image padding-25-21-21-48 border-radius-71px-000 color-background-white margin-right-57">
-
-            <img class="image__element" src="./assets/images/Vinci logo.png" alt="" class="image__element" >
-
-          </a>
-          
-          <a href="" class="image-links-slider__image padding-25-21-21-48 border-radius-71px-000 color-background-white margin-right-57">
-
-            <img class="image__element" src="./assets/images/Schlumberger-Logo.png" alt="" class="image__element" >
-
-          </a>
-
-          <a href="" class="image-links-slider__image padding-25-21-21-48 border-radius-71px-000 color-background-white margin-right-57">
-
-            <img class="image__element" src="./assets/images/Petrofac-Logo.png" alt="" class="image__element" >
-
-          </a>
-
-          <a href="" class="image-links-slider__image padding-25-21-21-48 border-radius-71px-000 color-background-white margin-right-57">
-
-            <img class="image__element" src="./assets/images/Nokia.png" alt="" class="image__element" >
-
-          </a>
-
         </div>
+
+        <!-- <div class="swiper-container margin-bottom-60">
+
+        </div> -->
         
-      </div>
+      </div> -->
 
     </section>
 
@@ -440,6 +432,21 @@
       document.addEventListener('DOMContentLoaded', function() {
 
         new Splide('.splide',{
+          
+            type:"loop",
+            perPage:1,
+            autoplay:false,
+            cover:true
+          }).mount();
+
+      });
+
+
+      // 2
+
+      document.addEventListener('DOMContentLoaded', function() {
+
+        new Splide('.splide2',{
           
             type:"loop",
             perPage:1,

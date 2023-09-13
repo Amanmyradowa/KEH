@@ -13,6 +13,11 @@
   padding: 19px 60px 18px 29px;
 }
 
+.padding-18-33-12-0
+{
+  padding: 18px 33.5px 12px 0;
+}
+
 .padding-20-0-30
 {
   padding: 20px 0 30px;
@@ -55,6 +60,11 @@
 .padding-15-0
 {
   padding: 15px 0;
+}
+
+.padding-16-26
+{
+  padding: 16px 26px;
 }
 
 .padding-12-0-15

@@ -8,12 +8,14 @@
   width: calc(100% / 2);
 }
 
-.news__img
-{
-  width: 80%;
-}
-
 .news__items
 {
   width: calc(100% / 2);
+  height: 700px;
+  overflow: auto;
+}
+
+.news__heading
+{
+  width: 78%;
 }

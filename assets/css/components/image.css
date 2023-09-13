@@ -13,7 +13,7 @@
 .image-background
 {
   position: absolute;
-  top: -151px;
+  top: -118px;
   left: -335px;
   z-index: -1;
 }
@@ -26,4 +26,10 @@
 .image__element--fit-cover
 {
   object-fit: cover;
+}
+
+.news__image
+{
+  width: 80%;
+  display: flex;
 }

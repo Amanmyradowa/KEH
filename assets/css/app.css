@@ -5,6 +5,7 @@
 @import'./atomic/margin.css';
 @import'./atomic/padding.css';
 @import"./atomic/text.css";
+@import"./atomic/scroll.css";
 
 *
 {
