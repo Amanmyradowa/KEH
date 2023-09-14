@@ -65,7 +65,12 @@
 
 .color-background-yellow
 {
-  background-color: var(--color-yellow4);
+  background-color: var(--color-yellow);
+}
+
+.color-background-yellow5
+{
+  background-color: var(--color-yellow5);
 }
 
 .color-background-blue
@@ -81,6 +86,4 @@
 .color-background-black-05
 {
   background-color: rgba(0, 2, 3, 0.452);
-  /* opacity: 0.5;
-  background: #101920; */
 }

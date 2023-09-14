@@ -20,6 +20,11 @@
   border-radius: 30px;
 }
 
+.border-radius-top-right-70
+{
+  border-top-right-radius: 70px;
+}
+
 .border-radius-8
 {
   border-radius: 8px;
@@ -43,6 +48,11 @@
 .border-radius-71px-000
 {
   border-radius: 71px 0px 0px 0px;
+}
+
+.border-radius-0-0-60
+{
+  border-radius: 0px 0px 60px 0px;
 }
 
 .border-radius-50
@@ -71,4 +81,14 @@
 .border-blue
 {
   border: 1px solid var(--color-blue);
+}
+
+.border-brown-top
+{
+  border-top: 2px solid var(--color-brown);
+}
+
+.border-brown-right
+{
+  border-right: 2px solid var(--color-brown);
 }

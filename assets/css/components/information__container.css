@@ -4,15 +4,3 @@
   display: flex;
   justify-content: space-between;
 }
-
-.information__container__left
-{
-  width: 35%;
-  /* display: flex; */
-
-}
-
-.information__container__right
-{
-  width: 60%;
-}

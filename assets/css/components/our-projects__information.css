@@ -1,0 +1,22 @@
+.our-projects__information
+{
+  position: relative;
+}
+
+.information-container
+{
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.information__container__left
+{
+  width: 35%;
+}
+
+.information__container__right
+{
+  width: 60%;
+}
