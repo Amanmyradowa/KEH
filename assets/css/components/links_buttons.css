@@ -19,6 +19,6 @@
 
 .main__item-link
 {
-  width: calc(100% / 3);
   position: relative;
+  z-index: 1;
 }

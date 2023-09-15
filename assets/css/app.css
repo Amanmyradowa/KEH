@@ -27,17 +27,3 @@ body
 	max-width: 1150px;
 	margin: 0 auto;
 }
-
-.splide{
-	width: 100%;
-	height: calc(100vh - 126px);
-}
-
-.splide__track, .splide__list{
-	height: 100%;
-}
-
-.splide__arrows
-{
-	display: none;
-}

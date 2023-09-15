@@ -1,0 +1,18 @@
+.accordion-button-container
+{
+  width: calc(100% / 3);
+}
+
+.accordion
+{
+  display: inline-block;
+  height: 0px;
+  /* height: 93px; */
+  overflow: hidden;
+  transition: all .4s;
+}
+
+.accordion.active
+{
+}
+
