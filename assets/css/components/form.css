@@ -5,6 +5,7 @@ input{
 textarea
 {
   resize: vertical;
+  outline: none;
 }
 
 .form-buttons__button
