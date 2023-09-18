@@ -11,12 +11,12 @@
   align-items: center;
 }
 
-.information__container__left
+.information__container__right
 {
   width: 35%;
 }
 
-.information__container__right
+.information__container__left
 {
   width: 60%;
 }
