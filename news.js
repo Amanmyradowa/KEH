@@ -39,6 +39,28 @@ function setNews() {
 
 setNews();
 
+function changeNews() {
+  let news = document.querySelector(".news");
+  
+  let newsImage = document.querySelector(".news__image");
+  
+  let img = document.createElement('img');
+  img.setAttribute('src', `./assets/images/${newsDatas[0].img}`);
+  img.setAttribute('class', 'image__element');
+  newsImage.appendChild(img);
+  
+  let title = document.createElement('h3');
+  title.setAttribute('class', 'news__heading text-color-dark-gray font-size-20 font-weight-700 margin-bottom-18');
+  title.textContent = newsDatas[0].title;
+  news.appendChild(title);
+  
+  let date = document.createElement('div');
+  date.setAttribute('class', 'date font-size-12 text-color-dark-gray margin-bottom-10');
+  date.textContent = newsDatas[0].date;
+  news.appendChild(date);
+}
+
+
 let newsDatas = [
   {
     img: 'Rectangle 253.png',
@@ -48,23 +70,4 @@ let newsDatas = [
   }
 ]
 
-let news = document.querySelector(".news");
-
-let newsImage = document.querySelector(".news__image");
-
-let img = document.createElement('img');
-img.setAttribute('src', `./assets/images/${newsDatas[0].img}`);
-img.setAttribute('class', 'image__element');
-newsImage.appendChild(img);
-
-let title = document.createElement('h3');
-title.setAttribute('class', 'news__heading text-color-dark-gray font-size-20 font-weight-700 margin-bottom-18');
-title = newsDatas[0].title;
-// news.textContent += title;
-news.appendChild(title);
-
-let date = document.createElement('div');
-date.setAttribute('class', 'date font-size-12 text-color-dark-gray margin-bottom-10');
-date = newsDatas[0].date;
-news.appendChild(date);
-// news.textContent += date;
+changeNews();
