@@ -57,6 +57,10 @@
   margin-right: 68px;
 }
 
+.margin-right-5
+{
+  margin-right: 5%;
+}
 
 /* margin-bottom */
 
@@ -175,4 +179,30 @@
 .margin-top-22
 {
   margin-top: 22px;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    
+}
+
+@media only screen and (max-width : 992px) {
+  .margin-top-50
+  {
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+	.margin-top-50
+  {
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+	.margin-top-50
+{
+	margin-top: 20px;
+}
 }

@@ -3,8 +3,14 @@
   width: calc(100% / 3);
 }
 
+.accordion-button
+{
+  width: 100%;
+}
+
 .accordion
 {
+  width: 100%;
   display: inline-block;
   height: 0px;
   overflow: hidden;
