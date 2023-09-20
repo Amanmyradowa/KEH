@@ -58,6 +58,11 @@
   background-color: var(--color-dark-blue);
 }
 
+.color-background-blue-080
+{
+  background-color: var(--color-blue-080);
+}
+
 .color-background-light-blue
 {
   background-color: var(--color-light-blue);
@@ -86,4 +91,9 @@
 .color-background-black-05
 {
   background-color: rgba(0, 2, 3, 0.452);
+}
+
+.box-shadow
+{
+  box-shadow: var(--box-shadow);
 }

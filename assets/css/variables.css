@@ -16,4 +16,7 @@
   --color-grey: #BABABA;
   --color-white-black-grey: #979090;
   --color-brown: #825655;
+  /* for mobile */
+  --color-blue-080: rgba(0, 71, 153, 0.681);
+  --box-shadow: 0px 19px 13px 0px rgba(0, 0, 0, 0.07);
 }

@@ -38,7 +38,32 @@
   display: flex;
 }
 
-.logotype
-{
 
+@media only screen and (max-width: 992px) {
+  .header__left-column
+  {
+    width: 30%;
+  }
+
+  .header__right-column
+  {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .header__navigation
+  {
+    width: 95%;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .header__right-column
+  {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 480px) {
 }

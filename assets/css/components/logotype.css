@@ -7,10 +7,31 @@
 {
   width: 229px;
   height: 83px;
+
+  width: 222px;
+  height: 80px;
 }
 
 .logotype__image-footer
 {
   width: 307.215px;
   height: 110.964px;
+}
+
+
+@media only screen and (max-width: 992px) {
+  .logotype__image-footer
+  {
+    width: 295.215px;
+    height: 100.964px;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .logotype__image-header
+  {
+    width: 222px;
+    height: 80px;
+  }
 }

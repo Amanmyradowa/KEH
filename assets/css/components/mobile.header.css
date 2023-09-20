@@ -1,0 +1,45 @@
+.menu-button-mobile
+{
+  display: none;
+}
+
+.lang-button-mobile
+{
+  display: none;
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.dropdown-container
+{
+  position: relative;
+}
+
+.dropdown-menu
+{
+  width: 90px;
+  position: absolute;
+  left: -18px;
+  z-index: 1;
+}
+
+.dropdown-langs
+{
+  position: absolute;
+  top: 40px;
+  z-index: 1;
+}
+
+@media only screen and (max-width: 768px) {
+  .menu-button-mobile
+  {
+    display: block !important;
+  }
+  
+  .lang-button-mobile
+  {
+    display: flex;
+  }
+}

@@ -22,3 +22,14 @@
   position: relative;
   z-index: 1;
 }
+
+
+@media only screen and (max-width: 992px) {
+  .svg__icon
+  {
+    width: 65.754px;
+    height: 65.754px;
+    left: 25px;
+    bottom: -7px;
+  }
+}
