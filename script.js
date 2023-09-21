@@ -35,3 +35,23 @@ for(let i=0; i<langs.length; i++) {
     langs[i].classList.add("text-color-blue");
   })
 }
+
+// mobile dropdowns
+
+let languageDropdown = document.querySelector("#language-toggle");
+let languageList = document.querySelector(".language__list-dropdown");
+let languageToggleIcon = document.querySelector(".language__toggle-icon");
+
+languageDropdown.addEventListener("click", function() {
+  languageList.classList.toggle("show");
+  languageToggleIcon.classList.toggle("show")
+})
+
+let menuDropdownOff = document.querySelector(".header-toogle-icon-off");
+let menuDropdownOn = document.querySelector(".header-toogle-icon-on");
+let menuMobile = document.querySelector(".menu-mobile");
+
+menuDropdownOff.addEventListener("click", function() {
+  menuMobile.classList.toggle("show");
+  console.log(menuMobile);
+})

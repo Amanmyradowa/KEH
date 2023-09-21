@@ -15,65 +15,6 @@
 
       <nav class="header__navigation padding-20-0">
 
-        <div class="dropdown-container">
-
-          <span class="menu-button-mobile">
-            <svg width="30" height="30" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M3 7.5H21" stroke="#004899" stroke-width="1.5" stroke-linecap="round"/>
-              <path d="M3 12.5H21" stroke="#004899" stroke-width="1.5" stroke-linecap="round"/>
-              <path d="M3 17.5H21" stroke="#004899" stroke-width="1.5" stroke-linecap="round"/>
-            </svg>
-          </span>
-
-          <div class="dropdown-menu color-background-blue padding-10 box-shadow border-radius-0-5-5-0">
-
-            <ul class="menu__list-mobile">
-
-              <li class="margin-bottom-10">
-
-                <a
-                  href="./index.html"
-                  class="font-size-15 text-color-white"
-                  >Главная</a
-                >
-
-              </li>
-
-              <li class="margin-bottom-10">
-
-                <a
-                  href="./about-us.html"
-                  class="font-size-15 text-color-white"
-                  >О компании</a
-                >
-
-              </li>
-
-              <li class="margin-bottom-10">
-
-                <a
-                  href="./services.html"
-                  class="font-size-15 text-color-white"
-                  >Услуги</a
-                >
-
-              </li>
-
-              <li>
-
-                <a href="./news.html"
-                  class="font-size-15 text-color-white"
-                  >Новости</a
-                >
-
-              </li>
-
-            </ul>
-
-          </div>
-
-        </div>
-
         <div class="header__left-column">
 
           <a href="./index.html" class="logotype">
@@ -92,26 +33,89 @@
 
         </div>
 
-        <div class="dropdown-container">
 
-          <span class="lang-button-mobile dropdown text-color-white color-background-blue padding-10-3 border-radius-50 font-weight-700">
-            RUS
-          </span>
-          
-          <div class="dropdown-langs">
+        <div class="mobile__header">
+          <div class="dropdown">
   
-            <span class="lang-button-mobile dropdown text-color-white color-background-blue padding-10-3 border-radius-50 font-weight-700 margin-bottom-10">
-              TKM
+            <button type="button" class="language__toggle text-color-blue font-size-15" id="language-toggle">
+              RU
+              <span class="language__toggle-icon margin-left-8">
+                <svg width="12" height="8" viewBox="0 0 9 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1 1L4.5 4L8 1" stroke="#004899" />
+                </svg>
+              </span>
+            </button>
+
+            <ul class="language__list-dropdown color-background-blue border-radius-4">
+              <li class="text-color-white padding-5-10 border-bottom">TM</li>
+              <li class="text-color-white padding-5-10">EN</li>
+            </ul>
+  
+          </div>
+  
+          <div class="header_toggle">
+
+            <span class="header-toogle-icon header-toogle-icon-off">
+              <svg width="25" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3 7.5H21" stroke="#004899" stroke-width="1.5" stroke-linecap="round"/>
+                <path d="M3 12.5H21" stroke="#004899" stroke-width="1.5" stroke-linecap="round"/>
+                <path d="M3 17.5H21" stroke="#004899" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
             </span>
 
-            <span class="lang-button-mobile dropdown text-color-white color-background-blue padding-10-3 border-radius-50 font-weight-700">
-              ENG
+            <span class="header-toogle-icon header-toogle-icon-on">
+              <svg width="16" height="16" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.646447 0.646447C0.841709 0.451184 1.15829 0.451184 1.35355 0.646447L4 3.29289L6.64645 0.646447C6.84171 0.451184 7.15829 0.451184 7.35355 0.646447C7.54882 0.841709 7.54882 1.15829 7.35355 1.35355L4.70711 4L7.35355 6.64645C7.54882 6.84171 7.54882 7.15829 7.35355 7.35355C7.15829 7.54882 6.84171 7.54882 6.64645 7.35355L4 4.70711L1.35355 7.35355C1.15829 7.54882 0.841709 7.54882 0.646447 7.35355C0.451184 7.15829 0.451184 6.84171 0.646447 6.64645L3.29289 4L0.646447 1.35355C0.451184 1.15829 0.451184 0.841709 0.646447 0.646447Z" fill="#004899"/>
+              </svg>
             </span>
+
+            <div class="menu-mobile color-background-white border-bottom-right-radius">
+              <ul class="menu__list">
+
+                <li class="padding-15-0 margin-left-5">
+  
+                  <a
+                    href="./index.html"
+                    class="heading-links__list-link font-size-20 text-color-blue"
+                    >Главная</a
+                  >
+  
+                </li>
+  
+                <li class="padding-15-0 margin-left-5">
+  
+                  <a
+                    href="./about-us.html"
+                    class="heading-links__list-link font-size-20 text-color-black"
+                    >О компании</a
+                  >
+  
+                </li>
+  
+                <li class="padding-15-0 margin-left-5">
+  
+                  <a
+                    href="./services.html"
+                    class="heading-links__list-link text-color-black font-size-20"
+                    >Услуги</a
+                  >
+  
+                </li>
+  
+                <li class="padding-15-0 margin-left-5">
+  
+                  <a href="./news.html" class="heading-links__list-link text-color-black font-size-20"
+                    >Новости</a
+                  >
+  
+                </li>
+  
+              </ul>
+            </div>
 
           </div>
-
-
         </div>
+
 
 
         <div class="header__right-column">
@@ -134,7 +138,7 @@
 
                 <a
                   href="./about-us.html"
-                  class=""
+                  class="heading-links__list-link margin-right-25 font-size-20 text-color-black"
                   >О компании</a
                 >
 
@@ -166,7 +170,7 @@
 
             <div class="language__item margin-right-10 font-size-20">TM</div>
 
-            <div class="language__item text-color-blue margin-right-10 font-size-20">RUS</div>
+            <div class="language__item text-color-blue margin-right-10 font-size-20">RU</div>
 
             <div class="language__item font-size-20">EN</div>
 
