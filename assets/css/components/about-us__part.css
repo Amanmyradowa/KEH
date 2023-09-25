@@ -18,3 +18,20 @@
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .about-us
+  {
+    width: 95%;
+  }
+
+  .about-us__part
+  {
+    flex-direction: column;
+  }
+
+  .about-us__part__right
+  {
+    width: 100%;
+  }
+}
+

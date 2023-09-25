@@ -47,11 +47,24 @@ languageDropdown.addEventListener("click", function() {
   languageToggleIcon.classList.toggle("show")
 })
 
-let menuDropdownOff = document.querySelector(".header-toogle-icon-off");
-let menuDropdownOn = document.querySelector(".header-toogle-icon-on");
-let menuMobile = document.querySelector(".menu-mobile");
 
-menuDropdownOff.addEventListener("click", function() {
+let menuDropdownOff = document.querySelector(".header-toogle-icon-off"); // hamburger
+let menuDropdownOn = document.querySelector(".header-toogle-icon-on"); // X
+let menuMobile = document.querySelector(".menu-mobile");
+let mobileBtns = document.querySelector(".mobile-menu-close-btns");
+console.log(mobileBtns[0]);
+let menuBtn = false;
+
+mobileBtns.addEventListener("click", function() {
+
+  if(menuBtn == false) {
+    menuBtn = true;
+    menuDropdownOff.style.display = "none";
+    menuDropdownOn.style.display = "block";
+  } else {
+    menuDropdownOn.style.display = "none";
+    menuDropdownOff.style.display = "block";
+    menuBtn = false;
+  }
   menuMobile.classList.toggle("show");
-  console.log(menuMobile);
-})
+});
