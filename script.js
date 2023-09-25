@@ -52,7 +52,7 @@ let menuDropdownOff = document.querySelector(".header-toogle-icon-off"); // hamb
 let menuDropdownOn = document.querySelector(".header-toogle-icon-on"); // X
 let menuMobile = document.querySelector(".menu-mobile");
 let mobileBtns = document.querySelector(".mobile-menu-close-btns");
-console.log(mobileBtns[0]);
+
 let menuBtn = false;
 
 mobileBtns.addEventListener("click", function() {

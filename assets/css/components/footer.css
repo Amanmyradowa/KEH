@@ -35,4 +35,20 @@
   {
     width: 95%;
   }
+
+  .footer__main__top
+  {
+    flex-direction: column;
+  }
+
+  .footer__left-column
+  {
+    width: 100%;
+    margin-bottom: 60px;
+  }
+
+  .footer__right-column
+  {
+    width: 80%;
+  }
 }

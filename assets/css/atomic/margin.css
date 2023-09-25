@@ -206,7 +206,25 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .margin-bottom-67
+  {
+    margin-bottom: 50px;
+  }
 
+  .margin-bottom-51
+  {
+    margin-bottom: 30px;
+  }
+
+  .margin-bottom-76
+  {
+    margin-bottom: 55px;
+  }
+
+  .margin-bottom-100
+  {
+    margin-bottom: 80px;
+  }
 }
 
 @media only screen and (max-width: 480px) {
