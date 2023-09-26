@@ -2,3 +2,17 @@
 {
   width: 80%;
 }
+
+@media only screen and (max-width: 992px) {
+  .our-projects__container
+  {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .our-projects
+  {
+    width: 95%;
+  }
+}

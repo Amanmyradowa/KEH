@@ -5,11 +5,7 @@ let accordion = document.querySelectorAll(".accordion");
 for(let i=0; i<accordionButtonContainer.length; i++){
   accordionButtonContainer[i].addEventListener("click", function(e){
 
-    if(accordion[i].style.height === "90px") {
-      accordion[i].style.height = "0"
-    }else{
-      accordion[i].style.height = "90px"
-    }
+    accordion[i].classList.toggle('active')
 
   })
 };
@@ -19,7 +15,7 @@ document.addEventListener("click", function(e) {
   let accordion = document.querySelectorAll(".accordion");
   for(let i=0; i<accordionButtonContainer.length; i++) {
     if(!accordionButtonContainer[i].contains(e.target)) {
-      accordion[i].style.height = '0';
+      accordion[i].classList.remove('active');
     }
   }
 })

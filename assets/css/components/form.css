@@ -12,3 +12,11 @@ textarea
 {
   width: 100%;
 }
+
+
+@media only screen and (max-width: 768px) {
+  .form-buttons__button
+  {
+    line-height: 20px;
+  }
+}

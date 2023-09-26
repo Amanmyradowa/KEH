@@ -46,8 +46,8 @@
             </button>
 
             <ul class="language__list-dropdown color-background-blue border-radius-4">
-              <li class="text-color-white padding-5-10 border-bottom">TM</li>
-              <li class="text-color-white padding-5-10">EN</li>
+              <li class="text-color-white padding-5-10 border-bottom font-size-15">TM</li>
+              <li class="text-color-white padding-5-10 font-size-15">EN</li>
             </ul>
   
           </div>
@@ -467,10 +467,6 @@
           </div>
   
         </div>
-
-        <div class="swiper-container margin-bottom-60">
-
-        </div>
         
       </div>
 
@@ -638,10 +634,16 @@
           
           type: "loop",
           perPage: 4,
-          autoplay: false,
+          autoplay: true,
           perMove: 1,
-          cover: false
+          cover: false,
+          breakpoints: {
+          768: {
+            perPage: 3,
+          }
+        }
         }).mount();
+
 
       });
 

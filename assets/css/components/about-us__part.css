@@ -10,15 +10,7 @@
   width: 60%;
 }
 
-
 @media only screen and (max-width: 992px) {
-  .about-us__part__right
-  {
-    width: 55%;
-  }
-}
-
-@media only screen and (max-width: 768px) {
   .about-us
   {
     width: 95%;
@@ -35,3 +27,15 @@
   }
 }
 
+
+@media only screen and (max-width: 768px) {
+  .about-us__text
+  {
+    margin-bottom: 15px;
+  }
+
+  .about-us-part__heading
+  {
+    margin-top: 10px;
+  }
+}

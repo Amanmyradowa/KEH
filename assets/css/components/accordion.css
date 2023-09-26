@@ -19,6 +19,11 @@
   transition: all .4s;
 }
 
+.accordion.active
+{
+  height: 90px;
+}
+
 .accordion-text
 {
   display: -webkit-box;
@@ -34,13 +39,14 @@
   {
     width: 95%;
     grid-template-columns: auto auto;
+    gap: 45px;
   }
 
 
   .accordion-button
   {
     text-align: end;
-    padding-right: 20px;
+    padding-right: 3px;
   }
 }
 
@@ -49,5 +55,10 @@
   .link-buttons__main
   {
     gap: 40px;
+  }
+
+  .accordion.active
+  {
+    height: 75px;
   }
 }

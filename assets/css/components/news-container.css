@@ -19,3 +19,53 @@
 {
   width: 78%;
 }
+
+.news-items-menu-off
+{
+  display: none;
+  width: 40px;
+}
+
+.news-items-menu-on
+{
+  display: none;
+  width: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .news-items-container
+  {
+    width: 95%;
+  }
+
+  .news-container
+  {
+    flex-direction: column;
+  }
+
+  .news
+  {
+    width: 100%;
+  }
+
+  .news__items
+  {
+    width: 80%;
+    height: 530px;
+    position: absolute;
+    left: -100%;
+    transition: all .3s;
+  }
+
+  .news__items.show
+  {
+    left: 0;
+  }
+
+  .news-items-menu-off
+  {
+    display: flex;
+  }
+
+}

@@ -23,6 +23,30 @@ const newsItems = [
   {
     text: "В рамках фестиваля «Каспийские сезоны-2023» состоялся День Туркменистана"
   },
+  {
+    text: "К Дню знаний Русский Дом в Ашхабаде проведет творческий уро"
+  },
+  {
+    text: "В Ашхабаде планируется построить автомобильный мост на пересечении улицы Г.Кулиева и ЖК «Тазе Заман»"
+  },
+  {
+    text: "Академия ITEA объявляет о скидках в честь Ораза байрам"
+  },
+  {
+    text: "В рамках фестиваля «Каспийские сезоны-2023» состоялся День Туркменистана"
+  },
+  {
+    text: "К Дню знаний Русский Дом в Ашхабаде проведет творческий уро"
+  },
+  {
+    text: "В Ашхабаде планируется построить автомобильный мост на пересечении улицы Г.Кулиева и ЖК «Тазе Заман»"
+  },
+  {
+    text: "Академия ITEA объявляет о скидках в честь Ораза байрам"
+  },
+  {
+    text: "В рамках фестиваля «Каспийские сезоны-2023» состоялся День Туркменистана"
+  },
 ]
 
 
@@ -113,3 +137,25 @@ setData(0);
 function changeNews(id) {
   setLeftData(id);
 }
+
+let newsMenuBtn = document.querySelector('.mobile-menu-news-items-btns');
+let news__items = document.querySelector('.news__items');
+
+let newsItemsBtnOff = document.querySelector(".news-items-menu-off"); // hamburger
+let newsItemsBtnOn = document.querySelector(".news-items-menu-on"); // X
+
+let newsItemsBtn = false;
+
+newsMenuBtn.addEventListener("click", function() {
+
+  if(newsItemsBtn == false) {
+    newsItemsBtn = true;
+    newsItemsBtnOff.style.display = "none";
+    newsItemsBtnOn.style.display = "block";
+  } else {
+    newsItemsBtnOn.style.display = "none";
+    newsItemsBtnOff.style.display = "block";
+    newsItemsBtn = false;
+  }
+  news__items.classList.toggle("show");
+});

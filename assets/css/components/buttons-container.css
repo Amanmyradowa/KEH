@@ -3,3 +3,39 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media only screen and (max-width: 992px) {
+  div.buttons-container
+  {
+    overflow-x: scroll;
+    padding-bottom: 5px;
+
+  }
+
+  ::-webkit-scrollbar{
+    height: 4px;
+    width: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:horizontal{
+    background: var(--color-blue);
+    border-radius: 10px;
+  }
+
+  .button__link-services
+  {
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+  .information
+  {
+    width: 95%;
+  }
+  .services-buttons-link
+  {
+    width: 95%; 
+  }
+}

@@ -40,4 +40,9 @@
   {
     display: none;
   }
+
+  .news__image
+  {
+    width: 100%;
+  }
 }
