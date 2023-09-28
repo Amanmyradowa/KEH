@@ -20,16 +20,23 @@
   width: 78%;
 }
 
+
+.mobile-menu-news-items-btns
+{
+  width: 40px;
+  display: flex;
+}
+
 .news-items-menu-off
 {
   display: none;
-  width: 40px;
+  width: 100%;
 }
 
 .news-items-menu-on
 {
   display: none;
-  width: 40px;
+  width: 100%;
 }
 
 @media only screen and (max-width: 768px) {

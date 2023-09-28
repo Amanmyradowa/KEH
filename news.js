@@ -159,3 +159,12 @@ newsMenuBtn.addEventListener("click", function() {
   }
   news__items.classList.toggle("show");
 });
+
+document.addEventListener("click", function(e) {
+  if(!newsMenuBtn.contains(e.target)) {
+    newsItemsBtnOn.style.display = "none";
+    newsItemsBtnOff.style.display = "block";
+    newsItemsBtn = false;
+    news__items.classList.remove("show");
+  }
+});

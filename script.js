@@ -48,9 +48,20 @@ document.addEventListener("click", function(e) {
   }
 });
 
+
 for(let i=0; i<languageListItems.length; i++) {
   languageListItems[i].addEventListener("click", function() {
     languageDropdownText.textContent = languageListItems[i].textContent;
+    const languages = ['TM','EN','RU']
+    
+    for(let j = 0; j<languages.length; j++){
+      if(languageListItems[i].textContent === languages[j]){
+        languages.splice(j,1)
+        languageListItems[0].textContent = languages[0]
+        languageListItems[1].textContent = languages[1]
+        break;
+      }
+    }
   })
 };
 
@@ -74,14 +85,13 @@ mobileBtns.addEventListener("click", function() {
     menuBtn = false;
   }
   menuMobile.classList.toggle("show");
-
 });
 
 document.addEventListener("click", function(e) {
   if(!mobileBtns.contains(e.target) && !menuMobile.contains(e.target)) {
-    menuBtn = false;
     menuDropdownOn.style.display = "none";
     menuDropdownOff.style.display = "block";
-    menuMobile.remove('show');
+    menuBtn = false;
+    menuMobile.classList.remove('show');
   }
 });
