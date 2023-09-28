@@ -4,9 +4,7 @@ let accordion = document.querySelectorAll(".accordion");
 
 for(let i=0; i<accordionButtonContainer.length; i++){
   accordionButtonContainer[i].addEventListener("click", function(e){
-
     accordion[i].classList.toggle('active')
-
   })
 };
 
@@ -35,13 +33,26 @@ for(let i=0; i<langs.length; i++) {
 // mobile dropdowns
 
 let languageDropdown = document.querySelector("#language-toggle");
+let languageDropdownText = document.querySelector("#language-toggle p");
 let languageList = document.querySelector(".language__list-dropdown");
+let languageListItems = document.querySelectorAll(".language__list-dropdown li");
 let languageToggleIcon = document.querySelector(".language__toggle-icon");
 
-languageDropdown.addEventListener("click", function() {
+
+document.addEventListener("click", function(e) {
   languageList.classList.toggle("show");
-  languageToggleIcon.classList.toggle("show")
-})
+  languageToggleIcon.classList.toggle("show");
+  if(!languageDropdown.contains(e.target)) {
+    languageList.classList.remove("show");
+    languageToggleIcon.classList.remove("show");
+  }
+});
+
+for(let i=0; i<languageListItems.length; i++) {
+  languageListItems[i].addEventListener("click", function() {
+    languageDropdownText.textContent = languageListItems[i].textContent;
+  })
+};
 
 
 let menuDropdownOff = document.querySelector(".header-toogle-icon-off"); // hamburger
@@ -63,4 +74,14 @@ mobileBtns.addEventListener("click", function() {
     menuBtn = false;
   }
   menuMobile.classList.toggle("show");
+
+});
+
+document.addEventListener("click", function(e) {
+  if(!mobileBtns.contains(e.target) && !menuMobile.contains(e.target)) {
+    menuBtn = false;
+    menuDropdownOn.style.display = "none";
+    menuDropdownOff.style.display = "block";
+    menuMobile.remove('show');
+  }
 });
