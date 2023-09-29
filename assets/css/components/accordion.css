@@ -37,7 +37,6 @@
 @media only screen and (max-width: 992px) {
   .link-buttons__main
   {
-    width: 95%;
     grid-template-columns: auto auto;
     gap: 45px;
   }
@@ -54,6 +53,7 @@
 @media only screen and (max-width: 768px) {
   .link-buttons__main
   {
+    width: 95%;
     gap: 40px;
   }
 
