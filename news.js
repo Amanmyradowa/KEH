@@ -160,11 +160,14 @@ newsMenuBtn.addEventListener("click", function() {
   news__items.classList.toggle("show");
 });
 
+const screenWidth = window.innerWidth;
+
 document.addEventListener("click", function(e) {
-  if(!newsMenuBtn.contains(e.target)) {
+  if(!newsMenuBtn.contains(e.target) && (screenWidth <= 768)) {
     newsItemsBtnOn.style.display = "none";
     newsItemsBtnOff.style.display = "block";
     newsItemsBtn = false;
     news__items.classList.remove("show");
   }
 });
+
