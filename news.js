@@ -162,6 +162,10 @@ newsMenuBtn.addEventListener("click", function() {
 
 const screenWidth = window.innerWidth;
 
+let isOver = innerWidth > width;
+
+let isOverComplete = 0;
+
 document.addEventListener("click", function(e) {
   if(!newsMenuBtn.contains(e.target) && (screenWidth <= 768)) {
     newsItemsBtnOn.style.display = "none";
@@ -171,3 +175,41 @@ document.addEventListener("click", function(e) {
   }
 });
 
+
+export function resizeCatch(width, overCallback, notOverCallback)
+{
+    let innerWidth = window.innerWidth;
+    
+    let isOver = innerWidth > width;
+    
+    let isOverComplete = 0;
+    
+    handler();
+    
+    window.addEventListener('resize', resize);
+    
+    function resize()
+    {
+        innerWidth = window.innerWidth;
+        
+        isOver = innerWidth > width;
+        
+        handler();
+    }
+    
+    function handler()
+    {
+        if (isOver && [0, 2].includes(isOverComplete))
+        {
+            isOverComplete = 1;
+            
+            overCallback && overCallback();
+        }
+        else if (!isOver && [0, 1].includes(isOverComplete))
+        {
+            isOverComplete = 2;
+            
+            notOverCallback && notOverCallback();
+        }
+    }
+}
